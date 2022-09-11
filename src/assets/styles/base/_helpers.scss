@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+.taskStyle {
+    color: $color-secondary;
+    span {
+        color: $color-primary;
+    }
+}
+.v-application a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .mianTitleResposive{
+        font-size: 1.8rem!important;
+    }
+}

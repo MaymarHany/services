@@ -1,0 +1,175 @@
+// -----------------------------------------------------------------------------
+// When having several themes, this file contains everything related to the
+// default one.
+// -----------------------------------------------------------------------------
+@font-face
+{
+    font-family: "Somar-Bold";
+    src: url("~@/assets/fonts/Somar-Bold.otf");
+}
+@font-face
+{
+    font-family: "Somar-Regular";
+    src: url("~@/assets/fonts/Somar-Regular.otf");
+}
+* {
+  box-sizing: border-box;
+}
+
+
+ /*  section:not(.sec-menu) {
+    text-transform: capitalize;
+  }
+ */
+
+
+.v-toolbar__items > .v-btn {
+  height: unset !important;
+  text-transform: uppercase !important;
+}
+
+.w-50{
+  width: 50% !important;
+}
+.w-25{
+  width: 25% !important;
+
+}
+.w-75{
+  width: 75% !important;
+
+}
+.w-80{
+  width: 80% !important;
+
+}
+html {
+  font-size: 14px;
+  // overflow: auto;
+}
+
+
+
+.h-75{
+height: 75%!important;
+}
+.h-80{
+  height: 80%!important;
+  }
+.secondRow.row.align-center {
+  margin-top: -12px;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 12px;
+
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+  body .conOfAllFooterSection {
+    position: static;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .h-md-100{
+    height: 100% !important;
+  }
+}
+.readBtn{
+  background-color: #772767 !important;
+  color: #fff !important ;
+
+}
+.defaultBtn{
+  font-size: 0.8em;
+  padding: 22px 25px !important;
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+/*Change text in autofill textbox*/
+input:-webkit-autofill {
+  -webkit-text-fill-color: initial !important;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 0.9rem;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 0.9rem;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 0.9rem;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 0.9rem;
+}
+
+// start style of scrollbar
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: $color-primary;
+  border: 3px solid #bbbdbf;
+  // margin: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: $color-white;
+  padding-right: 20px;
+  margin-left: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #7a797a;
+  border: 1px solid #7a797a;
+}
+
+// End style of scrollbar
+
+.eventSectionContainer {
+  .v-picker.v-card.v-picker--date {
+    box-shadow: 0px 10px 20px #c4c8d066;
+    border-radius: 20px;
+    padding: 0.5rem;
+
+    .primary {
+      background-color: $color-white !important;
+      border-color: $color-white !important;
+      color: $color-text-gray33;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+}
+
+.v-application {
+  .v-pagination {
+    .primary {
+      background-color: $color-primary !important;
+      border-color: $color-primary !important;
+    }
+  }
+}

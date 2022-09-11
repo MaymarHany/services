@@ -1,0 +1,45 @@
+// -----------------------------------------------------------------------------
+// This file contains buttons styles.
+// -----------------------------------------------------------------------------
+.primaryBtn {
+  background-color: $color-primary !important;
+  font-size: 1.1rem !important;
+  border-radius: 10px;
+  font-family: "Somar-Regular";
+  min-width: 170px !important;
+  padding: 23px 0 !important;
+
+  &.loginBtn {
+    border-radius: 8px;
+    min-width: 135px !important;
+
+    span {
+      text-transform: uppercase;
+      font-weight: initial;
+
+    }
+  }
+
+  span {
+    color: $color_white;
+    font-weight: bold;
+    text-transform: initial;
+
+  }
+
+  &:hover {
+    background-color: darken($color-primary, 5%);
+    border-color: darken($color-primary, 5%);
+    color: $color_white;
+
+    span {
+      border-color: darken($color-primary, 5%);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+      font-size: .8rem !important;
+      min-width: 150px !important;
+      padding: 20px 0 !important;
+  }
+}

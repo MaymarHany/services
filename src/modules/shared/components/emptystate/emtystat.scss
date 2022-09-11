@@ -1,0 +1,14 @@
+@import "~@/assets/styles/abstracts/variables";
+
+.noSearcResult {
+    width: 100%;
+    text-align: center;
+    // height: calc(100% - 176px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8c8c8c;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 5rem 0;
+}

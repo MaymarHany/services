@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains fonts styles.
+// -----------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'Cairo-Regular';
+    src: url('~@/assets/styles/base/fonts/Cairo-Regular.eot');
+    src: url('~@/assets/styles/base/fonts/Cairo-Regular.eot?#iefix') format('embedded-opentype'),
+        url("~@/assets/styles/base/fonts/Cairo-Regular.ttf") format("truetype"),
+        url('~@/assets/styles/base/fonts/Cairo-Regular.woff2') format('woff2'),
+        url('~@/assets/styles/base/fonts/Cairo-Regular.woff') format('woff'),
+        url('~@/assets/styles/base/fonts/Cairo-Regular.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
